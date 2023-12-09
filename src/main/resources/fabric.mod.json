@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "push_everything_away",
+  "version": "${version}",
+  "name": "Push Everything Away",
+  "description": "",
+  "authors": [
+    "iMoonDay"
+  ],
+  "contact": {
+    "repo": "https://github.com/iMoonDay/PushEverythingAway"
+  },
+  "license": "MIT",
+  "icon": "assets/push_everything_away/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.imoonday.push_everything_away.client.PushEverythingAwayClient"
+    ],
+    "main": [
+      "com.imoonday.push_everything_away.PushEverythingAway"
+    ]
+  },
+  "mixins": [
+    "push_everything_away.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

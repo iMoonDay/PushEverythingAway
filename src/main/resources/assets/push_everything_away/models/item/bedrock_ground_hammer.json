@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "push_everything_away:item/bedrock_ground_hammer"
+  }
+}

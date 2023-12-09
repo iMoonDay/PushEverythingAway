@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "222",
+    " 1 ",
+    " 1 "
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:iron_ingot"
+    },
+    "2": {
+      "item": "minecraft:stone_bricks"
+    }
+  },
+  "result": {
+    "item": "push_everything_away:stone_ground_hammer",
+    "count": 1
+  }
+}

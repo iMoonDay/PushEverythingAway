@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "push_everything_away:item/emerald_ground_hammer"
+  }
+}

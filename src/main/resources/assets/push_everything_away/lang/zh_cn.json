@@ -1,0 +1,15 @@
+{
+  "key.displaySelectionOutlines": "显示选择轮廓",
+  "group.push_everything_away": "推开一切",
+  "config.push_everything_away.displaySelectionOutlines.on": "开启显示选择轮廓",
+  "config.push_everything_away.displaySelectionOutlines.off": "关闭显示选择轮廓",
+  "item.push_everything_away.wooden_ground_hammer": "木击地锤",
+  "item.push_everything_away.stone_ground_hammer": "石击地锤",
+  "item.push_everything_away.copper_ground_hammer": "铜击地锤",
+  "item.push_everything_away.iron_ground_hammer": "铁击地锤",
+  "item.push_everything_away.gold_ground_hammer": "金击地锤",
+  "item.push_everything_away.diamond_ground_hammer": "钻石击地锤",
+  "item.push_everything_away.emerald_ground_hammer": "绿宝石击地锤",
+  "item.push_everything_away.netherite_ground_hammer": "下界合金击地锤",
+  "item.push_everything_away.bedrock_ground_hammer": "基岩击地锤"
+}

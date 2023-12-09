@@ -1,0 +1,15 @@
+{
+  "key.displaySelectionOutlines": "Display Selection Outlines",
+  "group.push_everything_away": "Push Everything Away",
+  "config.push_everything_away.displaySelectionOutlines.on": "Display Selection Outlines On",
+  "config.push_everything_away.displaySelectionOutlines.off": "Display Selection Outlines Off",
+  "item.push_everything_away.wooden_ground_hammer": "Wooden Ground Hammer",
+  "item.push_everything_away.stone_ground_hammer": "Stone Ground Hammer",
+  "item.push_everything_away.copper_ground_hammer": "Copper Ground Hammer",
+  "item.push_everything_away.iron_ground_hammer": "Iron Ground Hammer",
+  "item.push_everything_away.gold_ground_hammer": "Gold Ground Hammer",
+  "item.push_everything_away.diamond_ground_hammer": "Diamond Ground Hammer",
+  "item.push_everything_away.emerald_ground_hammer": "Emerald Ground Hammer",
+  "item.push_everything_away.netherite_ground_hammer": "Netherite Ground Hammer",
+  "item.push_everything_away.bedrock_ground_hammer": "Bedrock Ground Hammer"
+}
