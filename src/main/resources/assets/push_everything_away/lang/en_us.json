@@ -1,5 +1,6 @@
 {
   "key.displaySelectionOutlines": "Display Selection Outlines",
+  "key.charge": "Charge",
   "group.push_everything_away": "Push Everything Away",
   "config.push_everything_away.displaySelectionOutlines.on": "Display Selection Outlines On",
   "config.push_everything_away.displaySelectionOutlines.off": "Display Selection Outlines Off",
@@ -11,5 +12,15 @@
   "item.push_everything_away.diamond_ground_hammer": "Diamond Ground Hammer",
   "item.push_everything_away.emerald_ground_hammer": "Emerald Ground Hammer",
   "item.push_everything_away.netherite_ground_hammer": "Netherite Ground Hammer",
-  "item.push_everything_away.bedrock_ground_hammer": "Bedrock Ground Hammer"
+  "item.push_everything_away.bedrock_ground_hammer": "Bedrock Ground Hammer",
+  "item.push_everything_away.bulldozer": "Bulldozer",
+  "item.push_everything_away.bulldozer.tooltip": "There are serious bugs, waiting to be fixed",
+  "item.push_everything_away.gravity_staff": "Gravity Staff",
+  "item.push_everything_away.destruction_staff": "Destruction Staff",
+  "entity.push_everything_away.bulldozer": "Bulldozer",
+  "entity.push_everything_away.shockwave": "Shockwave",
+  "enchantment.push_everything_away.range_slam": "Range Slam",
+  "enchantment.push_everything_away.efficiency_slam": "Efficiency Slam",
+  "enchantment.push_everything_away.power_slam": "Power Slam",
+  "text.push_everything_away.cooling": "Cooling... (%d ticks)"
 }

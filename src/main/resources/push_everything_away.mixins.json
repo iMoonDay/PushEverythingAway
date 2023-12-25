@@ -3,8 +3,13 @@
   "minVersion": "0.8",
   "package": "com.imoonday.push_everything_away.mixin",
   "compatibilityLevel": "JAVA_17",
-  "mixins": [],
+  "mixins": [
+    "PlayerEntityMixin"
+  ],
   "client": [
+    "InGameHudMixin",
+    "MinecraftClientInvoker",
+    "MouseMixin"
   ],
   "injectors": {
     "defaultRequire": 1

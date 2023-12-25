@@ -1,6 +1,7 @@
 plugins {
-    id 'fabric-loom' version '1.2-SNAPSHOT'
+    id 'fabric-loom' version '1.4-SNAPSHOT'
     id 'maven-publish'
+    id 'org.jetbrains.kotlin.jvm' version '1.9.21'
 }
 
 version = project.mod_version + "+" + project.minecraft_version
@@ -22,6 +23,7 @@ repositories {
         }
     }
     maven { url 'https://jitpack.io' }
+    mavenCentral()
 }
 
 dependencies {
@@ -33,7 +35,9 @@ dependencies {
     // Fabric API. This is technically optional, but you probably want it anyway.
     modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
-    include modImplementation("com.github.0x3C50:Renderer:master-SNAPSHOT")
+    include modImplementation("com.github.0x3C50:Renderer:c4faf83b35")
+    modImplementation("net.fabricmc:fabric-language-kotlin:${project.kotlin_version}")
+    implementation "org.jetbrains.kotlin:kotlin-stdlib"
 }
 
 processResources {
@@ -93,5 +97,15 @@ publishing {
         // Notice: This block does NOT have the same function as the block in the top level.
         // The repositories here will be used for publishing your artifact, not for
         // retrieving dependencies.
+    }
+}
+compileKotlin {
+    kotlinOptions {
+        jvmTarget = "17"
+    }
+}
+compileTestKotlin {
+    kotlinOptions {
+        jvmTarget = "17"
     }
 }
